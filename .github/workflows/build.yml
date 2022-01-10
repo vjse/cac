@@ -18,5 +18,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Docusarus Build
-      run: docusaurus build
+      run: yarm run build
       
